@@ -51,7 +51,7 @@ st.write(df.head(numero))
 
 
 
-st.metric('# Municípios', len(df['NM_MUNIC'].unique()))
+st.metric('# Quantidade de Municípios', len(df['NM_MUNIC'].unique()))
 st.metric('# Comunidades', len(df['NM_AGLOM'].unique()))
 
 
