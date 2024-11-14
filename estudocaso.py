@@ -55,7 +55,7 @@ st.metric('# Quantidade de Municípios', len(df['NM_MUNIC'].unique()))
 st.metric('# Comunidades', len(df['NM_AGLOM'].unique()))
 
 qtdeMunicipios = len(dadosFiltrados)
-st.write("A quantidade de municípios com localização quilombola é " + str(qtdeMunicipios))
+st.write("A quantidade de municípios com localização quilombola do Estado selecionado é " + str(qtdeMunicipios))
 
 
 
