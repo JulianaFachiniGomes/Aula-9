@@ -28,4 +28,6 @@ st.write("A quantidade de municípios com localização quilombola é " + str(qt
 qtdeComunidades = len(df['NM_AGLOM'].unique())
 st.write("A quantidade de comunidades quilombolas é " + str(qtdeComunidades))
 
+st.bar_chart(df['NM_UF'].value_counts())
+
 
